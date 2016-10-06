@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:main": "nodemon main.server.js",
+    "start:auth": "nodemon auth.server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
